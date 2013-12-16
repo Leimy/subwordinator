@@ -1,0 +1,14 @@
+* Purpose
+This is a not-very-serious program meant to show a really quick way to 
+hack up a goroutine heavy program that doesn't do too much.  
+
+It builds up a map of words, to be used as a set, from a dictionary.
+Then, using the argument provided on the command line, it validates it as a
+word against this dictionary.  For every word provided it finds all the
+potential subwords that can be produced by dropping a letter.  Each of those
+potential subwords is sieved through the dictionary map.
+
+So many things about this program could potentially be done better.  Please
+don't judge me :-).
+
+
